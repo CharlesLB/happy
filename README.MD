@@ -1,41 +1,96 @@
-<p align="center">
-  <img  width="100" height="80%" src="https://camo.githubusercontent.com/e0e766d8a5d86a228386eb156c71fab863916686/68747470733a2f2f692e6962622e636f2f4b62707936684d2f6e65772e706e67" alt="NextLevelWeek"></a>
-</p>
-
-<h3 align="center">Happy - NextLevelWeek #3</h3>
+<h3 align="center">
+    :rocket: Happy :rocket:
+</h3>
 
 <p align="center">
-    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/caioagiani/happy-nlw3">
-    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/caioagiani/happy-nlw3">
-    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/caioagiani/happy-nlw3">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/caioagiani/happy-nlw3">
+  <a href="https://rocketseat.com.br">
+    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%237519C1">
+  </a>
+  <a>
+  <img alt="Language" src="https://img.shields.io/badge/language-NodeJS-brightgreen">
+  <img alt="Language" src="https://img.shields.io/badge/language-ReactJS-brightgreen">
+  <img alt="Language" src="https://img.shields.io/badge/language-React Native-brightgreen">
+  <img alt="Language" src="https://img.shields.io/badge/language-Typescript-brightgreen">
+
 </p>
 
----
+
+## :bookmark: Sobre
+
+O <strong>Happy</strong> é uma aplicação Web e Mobile para ajudar pessoas a encontrarem orfanatos para adoção feita atravez da Next Level Week, administrada pela RockeatSeat.
+
+<a id="documentacao"></a>
+
+## :rocket: Tecnologias Utilizadas
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias
+
+- [TypeScript](https://www.typescriptlang.org/)
+- [Node.js](https://nodejs.org/en/)
+    - [Typeorm](https://docs.expo.io)
+- [ReactJS](https://reactjs.org/)
+- [React Native](https://reactnative.dev/)
+    - [Expo](https://docs.expo.io)
+
+## :heavy_check_mark: Inteface:
+
+- O layout está disponível no **[Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/)**;
+
+<h1 align="center">
+    <img alt="Web" src="./.github/tela.png" width="900px">
+</h1>
+
+<a id="como-usar"></a>
+
+## :fire: Como usar
+
+- ### **Pré-requisitos**
+
+  - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** no mínimo na versão 12.0 instalado na máquina
+  - Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
+  - Por fim, é **essencial** ter o **[Expo](https://expo.io/)** instalado de forma global na máquina
+
+1. Faça um clone :
 
 ```sh
-$ git clone git@github.com:caioagiani/happy-nlw3.git
-
-$ cd (frontend) or (backend)
-
-$ yarn install
-
-$ yarn start (frontend) or yarn dev (backend)
+  $ git clone https://github.com/CharlesLB/ecoleta.git
 ```
 
----
+2. Para executar:
 
-<p align="center">
-  <img width="100%" height="100%" src="https://i.imgur.com/YW9dNan.png" alt="Player music"></a>
-</p>
+```sh
+  # Instale as dependências
+  $ npm install
 
----
+  ## Crie o banco de dados
+  $ cd server
+  $ npm run knex:migrate
+  $ npm run knex:seed
 
-<p align="center">
-  <img width="100%" height="100%" src="https://i.imgur.com/Zrvf8qB.jpg" alt="Player music"></a>
-</p>
+  # Inicie a API
+  $ npm run dev
 
-## Credits
+  # Inicie a aplicação web
+  $ cd web
+  $ npm start
 
-- @rocketseat
-- @diego3g
+  # Inicie a aplicação mobile
+  $ cd mobile
+  $ npm start
+  
+  ## Colocar endereço de IP no arquivo mobile/src/services/axios.ts
+  ## Colocar endereço de IP no arquivo server/src/services/axios.ts
+```
+
+<a id="como-contribuir"></a>
+
+## :recycle: Como contribuir
+
+- Faça um Fork desse repositório,
+- Crie uma branch com a sua feature: `git checkout -b my-feature`
+- Commit suas mudanças: `git commit -m 'feat: My new feature'`
+- Push a sua branch: `git push origin my-feature`
+
+## :memo: License
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
