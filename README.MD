@@ -1,7 +1,6 @@
-<h3 align="center">
-    :rocket: Happy :rocket:
-</h3>
-
+<h1 align="center">
+    <img alt="Web" src="./.github/logo.svg" width="400px">
+</h1>
 <p align="center">
   <a href="https://rocketseat.com.br">
     <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%237519C1">
@@ -37,7 +36,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - O layout está disponível no **[Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/)**;
 
 <h1 align="center">
-    <img alt="Web" src="./.github/tela.png" width="900px">
+    <img alt="Web" src="./.github/page.png" width="900px">
 </h1>
 
 <a id="como-usar"></a>
